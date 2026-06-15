@@ -1,0 +1,2 @@
+fastapi
+newspaper3k
