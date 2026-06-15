@@ -32,5 +32,5 @@ def extract_text(request: ArticleRequest):
             }
         }
         
-except Exception as e:
-    raise HTTPException(status_code=400, detail=f"Něco se pokazilo: {str(e)}")
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Něco se pokazilo: {str(e)}")
